@@ -1,7 +1,6 @@
 import requests
 
-#url = 'https://httpbin.org'
-url = 'http://localhost'
+url = 'https://httpbin.org/status/404'
 request = requests.get(url)
 status = request.status_code
 
